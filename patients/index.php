@@ -19,7 +19,7 @@
 	foreach($patients as $patient):
 ?>
 			<tr>
-				<td><?=$patient['name']?></td>
+				<td><?=$patient['name']?></td>//
 				<td><?=$patient['species']?></td>
 				<td><?=$patient['status']?></td>
 				<td class="center"><a href="edit.php?id=<?=$patient['id']?>">edit</a></td>

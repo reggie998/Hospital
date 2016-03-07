@@ -9,7 +9,7 @@
 			<input type="text" id="name" name="name">
 		</div>
 		<div>
-			<label for="name">patiënt_id:</label>
+			<label for="name">patient_id:</label>
 			<input type="text" id="patient_id" name="patient_id">
 		</div>
 		<div>

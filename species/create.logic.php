@@ -4,10 +4,10 @@
 		
 		// Prepare data for insertion
 		$name = $db->escape_string($_POST["name"]);
-		$patient = $db->escape_string($_POST["patient_id"]);
+		$species = $db->escape_string($_POST["id"]);
 		
 		// Prepare query and execute
-		$query = "insert into client (name, patient_id) values ('$name','$patient_id')";
+		$query = "insert into species (name, id) values ('$name','$id')";
 		$result = $db->query($query);
 	
     // Tell the browser to go back to the index page.
